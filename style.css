@@ -3,3 +3,7 @@
   margin: 0;
   border: 0;
 }
+
+div {
+  border: solid red 2px;
+}
