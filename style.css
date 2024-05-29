@@ -17,6 +17,8 @@ body {
 
 .sidebar {
   grid-row: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .header {
@@ -28,6 +30,6 @@ body {
   grid-column: 2 / -1;
 }
 
-div {
+body > div {
   border: solid red 2px;
 }
