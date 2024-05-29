@@ -9,6 +9,12 @@ body {
   height: 100%;
 }
 
+body {
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+  grid-template-columns: 1fr 4fr;
+}
+
 div {
   border: solid red 2px;
 }
