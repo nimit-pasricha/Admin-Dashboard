@@ -23,6 +23,12 @@ body {
   grid-template-columns: 1fr;
 }
 
+.dashboard-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .header {
   grid-column: 2 / -1;
 }
