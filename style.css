@@ -87,8 +87,4 @@ div {
   grid-template-rows: 1fr 1fr;
 }
 
-.search-and-name {
-  grid-row: 1 / span 2;
-}
-
 /* MAIN CONTENT */
