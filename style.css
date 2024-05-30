@@ -24,7 +24,7 @@ div {
   --header-icon-height: 1.4rem;
   --title-like-bold: 500;
   --subtitle-like-bold: 500;
-  --search-and-pfp-padding: 32px;
+  --search-and-pfp-padding: 42px;
 }
 
 ul {
@@ -148,7 +148,7 @@ body {
 .greetings {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 18px;
   padding: 0 var(--search-and-pfp-padding);
 }
 
