@@ -115,6 +115,11 @@ body {
   border-color: #1992d4;
 }
 
+.bell-and-name {
+  display: flex;
+  align-items: center;
+}
+
 .bell-and-name svg {
   width: var(--header-icon-width);
   height: var(--header-icon-height);
