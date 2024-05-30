@@ -31,6 +31,10 @@ body {
   align-items: center;
 }
 
+.dashboard-logo {
+  fill: white;
+}
+
 .header {
   grid-column: 2 / -1;
 }
