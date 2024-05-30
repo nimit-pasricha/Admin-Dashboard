@@ -24,6 +24,10 @@ body {
   grid-template-columns: 1fr 4fr;
 }
 
+body > div {
+  border: solid red 2px;
+}
+
 /* SIDEBAR */
 
 .sidebar {
@@ -75,17 +79,15 @@ body {
   padding-left: 12px;
 }
 
-/* END OF SIDEBAR STYLES */
+/* HEADER */
 
 .header {
   grid-column: 2 / -1;
 }
 
+/* MAIN CONTENT */
+
 .container {
   grid-column: 2 / -1;
   grid-row: 2 / -1;
-}
-
-body > div {
-  border: solid red 2px;
 }
