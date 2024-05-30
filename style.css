@@ -15,7 +15,7 @@ body {
 }
 
 div {
-  /* border: solid red; */
+  border: solid red;
 }
 
 :root {
@@ -133,10 +133,17 @@ body {
 }
 
 .profile-picture {
-  width: 36px;
   background-color: #facc15;
   border-radius: 50%;
   padding: 6px;
+}
+
+.bell-and-name .profile-picture {
+  width: 2.25rem;
+}
+
+.greetings .profile-picture {
+  width: 56px;
 }
 
 /* MAIN CONTENT */
