@@ -29,7 +29,7 @@ body {
   color: #ffffff;
   grid-row: 1 / -1;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: minmax(192px, 1fr);
   grid-template-rows: 3rem 18rem 9rem;
   gap: 2.5rem;
   padding: 16px;
