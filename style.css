@@ -24,7 +24,7 @@ body {
   grid-template-columns: 1fr 4fr;
 }
 
-body > div {
+div {
   border: solid red 2px;
 }
 
@@ -83,6 +83,9 @@ body > div {
 
 .header {
   grid-column: 2 / -1;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 /* MAIN CONTENT */
