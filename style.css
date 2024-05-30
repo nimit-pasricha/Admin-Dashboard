@@ -53,23 +53,14 @@ body {
   align-items: center;
   height: 3rem;
   font-size: 1.2rem;
-  font-weight: 500;
-  gap: 8px;
+  font-weight: 410;
+  gap: 16px;
 }
 
 .sidebar li svg {
   width: 1.5rem;
   height: 1.5rem;
   fill: white;
-}
-
-.header {
-  grid-column: 2 / -1;
-}
-
-.container {
-  grid-row: 2 / -1;
-  grid-column: 2 / -1;
 }
 
 body > div {
