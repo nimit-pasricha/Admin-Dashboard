@@ -11,6 +11,10 @@ body {
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+ul {
+  list-style: none;
+}
+
 body {
   display: grid;
   grid-template-rows: 1fr 5fr;
@@ -23,16 +27,18 @@ body {
   grid-row: 1 / -1;
   display: grid;
   grid-template-columns: 1fr;
+  padding: 16px;
 }
 
 .dashboard-box {
   display: flex;
-  justify-content: center;
   align-items: center;
+  height: 3rem;
 }
 
 .dashboard-logo {
   width: 3rem;
+  height: 3rem;
   fill: white;
 }
 
