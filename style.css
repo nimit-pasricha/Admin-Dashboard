@@ -125,4 +125,11 @@ body {
   height: var(--header-icon-height);
 }
 
+.profile-picture {
+  width: 36px;
+  background-color: #facc15;
+  border-radius: 50%;
+  padding: 6px;
+}
+
 /* MAIN CONTENT */
