@@ -15,7 +15,7 @@ body {
 }
 
 div {
-  border: solid red;
+  /* border: solid red; */
 }
 
 :root {
@@ -142,8 +142,15 @@ body {
   width: 2.25rem;
 }
 
+.greetings {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  grid-template-columns: 4.27rem 1fr;
+}
+
 .greetings .profile-picture {
-  width: 56px;
+  grid-row: 1 / -1;
+  width: 3.5rem;
 }
 
 /* MAIN CONTENT */
