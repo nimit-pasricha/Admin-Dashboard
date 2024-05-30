@@ -99,6 +99,10 @@ div {
 }
 
 #content-search-bar {
+  height: 1.8rem;
+  width: 100%;
+  border-radius: 50px;
+  background-color: #e2e8f0;
 }
 
 /* MAIN CONTENT */
