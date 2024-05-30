@@ -27,6 +27,8 @@ body {
   grid-row: 1 / -1;
   display: grid;
   grid-template-columns: 1fr;
+  grid-template-rows: 48px 288px 144px;
+  gap: 40px;
   padding: 16px;
 }
 
@@ -44,8 +46,8 @@ body {
 }
 
 .dashboard-heading {
-  font-size: 1.6rem;
-  font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 .sidebar li {
