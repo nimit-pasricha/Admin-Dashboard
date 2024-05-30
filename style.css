@@ -19,6 +19,7 @@ div {
 }
 
 :root {
+  --background-blue: #3b82f6;
   --header-icon-width: 1.4rem;
   --header-icon-height: 1.4rem;
   --title-like-bold: 500;
@@ -31,13 +32,13 @@ ul {
 body {
   display: grid;
   grid-template-rows: 1fr 5fr;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 5fr;
 }
 
 /* SIDEBAR */
 
 .sidebar {
-  background-color: #1992d4;
+  background-color: var(--background-blue);
   color: #ffffff;
   grid-row: 1 / -1;
   display: grid;
