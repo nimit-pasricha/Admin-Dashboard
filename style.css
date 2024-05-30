@@ -82,15 +82,13 @@ div {
 /* HEADER */
 
 .header {
-  grid-column: 2 / -1;
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
 
-/* MAIN CONTENT */
-
-.container {
-  grid-column: 2 / -1;
-  grid-row: 2 / -1;
+.search-and-name {
+  grid-row: 1 / span 2;
 }
+
+/* MAIN CONTENT */
