@@ -23,6 +23,7 @@ div {
   --header-icon-width: 1.4rem;
   --header-icon-height: 1.4rem;
   --title-like-bold: 500;
+  --subtitle-like-bold: 500;
 }
 
 ul {
@@ -71,7 +72,7 @@ body {
   align-items: center;
   height: 3rem;
   font-size: 1.1rem;
-  font-weight: 401;
+  font-weight: var(--subtitle-like-bold);
   gap: 1.5rem;
 }
 
@@ -143,14 +144,30 @@ body {
 }
 
 .greetings {
-  display: grid;
-  grid-template-rows: 1fr 2fr;
-  grid-template-columns: 4.27rem 1fr;
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
 .greetings .profile-picture {
   grid-row: 1 / -1;
-  width: 3.5rem;
+  width: 4rem;
+}
+
+.greeting-text {
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.actual-greeting {
+  font-weight: var(--subtitle-like-bold);
+}
+
+.greeting-name {
+  font-weight: 700;
+  font-size: 24px;
 }
 
 /* MAIN CONTENT */
