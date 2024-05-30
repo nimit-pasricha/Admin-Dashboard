@@ -48,6 +48,19 @@ body {
   font-weight: 600;
 }
 
+.sidebar li {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  gap: 8px;
+}
+
+.sidebar svg {
+  width: 3rem;
+  height: 3rem;
+  fill: white;
+}
+
 .header {
   grid-column: 2 / -1;
 }
