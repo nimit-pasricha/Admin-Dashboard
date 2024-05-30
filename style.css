@@ -125,7 +125,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: right;
-  margin-right: 80px;
+  margin-right: 72px;
   gap: 24px;
   font-weight: var(--title-like-bold);
 }
