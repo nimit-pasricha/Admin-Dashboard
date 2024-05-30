@@ -16,6 +16,8 @@ body {
 }
 
 .sidebar {
+  background-color: #38bdf8;
+  color: #ffffff;
   grid-row: 1 / -1;
   display: grid;
   grid-template-columns: 1fr;
