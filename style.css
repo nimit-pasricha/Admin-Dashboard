@@ -73,7 +73,7 @@ body {
   align-items: center;
   height: 3rem;
   font-size: 1.1rem;
-  font-weight: var(--subtitle-like-bold);
+  font-weight: 0 var(--subtitle-like-bold);
   gap: 1.5rem;
 }
 
@@ -125,7 +125,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: right;
-  margin-right: 72px;
+  margin-right: 96px;
   gap: 24px;
   font-weight: var(--title-like-bold);
 }
