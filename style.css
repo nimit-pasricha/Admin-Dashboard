@@ -104,6 +104,11 @@ div {
   width: 100%;
   border-radius: 50px;
   background-color: #e2e8f0;
+  padding: 16px;
+}
+
+#content-search-bar:focus {
+  border-color: #1992d4;
 }
 
 /* MAIN CONTENT */
