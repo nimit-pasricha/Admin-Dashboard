@@ -199,6 +199,7 @@ body {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 16px;
+  padding: 28px 24px 0 16px;
 }
 
 .projects {
