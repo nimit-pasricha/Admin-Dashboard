@@ -35,7 +35,7 @@ ul {
 
 body {
   display: grid;
-  grid-template-rows: 1fr 5fr;
+  grid-template-rows: 1fr 6fr;
   grid-template-columns: 1fr 5fr;
 }
 
@@ -157,7 +157,7 @@ body {
 
 .greetings .profile-picture {
   grid-row: 1 / -1;
-  width: 3.8rem;
+  width: 3.2rem;
 }
 
 .greeting-text {
@@ -173,7 +173,7 @@ body {
 
 .greeting-name {
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .buttons {
@@ -265,10 +265,16 @@ body {
 .trending {
   display: grid;
   grid-template-rows: 1.1rem 1fr;
-  gap: 8px;
+  gap: 16px;
+}
+
+.announcements-header,
+.trending-header {
+  font-weight: 500;
 }
 
 .actual-announcements,
 .actual-trending {
   background-color: white;
+  border-radius: 8px;
 }
