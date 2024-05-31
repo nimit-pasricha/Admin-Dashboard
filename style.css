@@ -176,16 +176,17 @@ body {
 
 .buttons {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(90px, 1fr));
   align-items: center;
-  gap: 16px;
-  margin-right: 36px;
+  gap: 24px;
+  margin-right: 80px;
 }
 
 .header button {
   background-color: var(--background-blue);
   font-weight: 800;
-  height: 50%;
+  height: 60%;
+  /* padding: 0 16px; */
   border-radius: 50px;
   color: #ffffff;
 }
