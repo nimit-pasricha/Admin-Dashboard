@@ -180,7 +180,7 @@ body {
   grid-template-columns: repeat(3, minmax(90px, 1fr));
   align-items: center;
   gap: 24px;
-  margin-right: 56px;
+  margin-right: 52px;
 }
 
 .header button {
