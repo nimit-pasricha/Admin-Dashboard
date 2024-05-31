@@ -10,7 +10,6 @@ body {
 }
 
 body {
-  overflow: auto;
   font-family: Roboto, system-ui, "Segoe UI", Helvetica, Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
@@ -202,6 +201,7 @@ body {
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 1.1rem 1fr;
   gap: 16px;
+  /* TODO CHECK OUT THIS PADDING */
   padding: 32px 24px 52px 24px;
 }
 
@@ -219,6 +219,7 @@ body {
   padding: 32px 32px 32px 24px;
   background-color: #ffffff;
   border-left: solid var(--profile-picture-background) 8px;
+  box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.1);
 }
 
 .projects-header {
