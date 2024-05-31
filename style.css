@@ -201,7 +201,7 @@ body {
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 1.1rem 1fr;
   gap: 16px;
-  padding: 32px 24px 48px 24px;
+  padding: 28px 24px 42px 24px;
 }
 
 .projects {
@@ -254,18 +254,19 @@ body {
   grid-row: 1 / -1;
   display: grid;
   grid-template-rows: 1fr 1fr;
-  gap: 24px;
+  gap: 32px;
 }
 
 .announcements,
 .trending {
   display: grid;
-  grid-template-rows: 1.1rem 1fr;
+  grid-template-rows: 1.1rem 16.875rem;
   gap: 16px;
 }
 
 .announcements-header,
 .trending-header {
+  font-size: 1.1rem;
   font-weight: 500;
 }
 
