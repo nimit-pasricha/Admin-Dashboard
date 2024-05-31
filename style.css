@@ -10,6 +10,7 @@ body {
 }
 
 body {
+  overflow: auto;
   font-family: Roboto, system-ui, "Segoe UI", Helvetica, Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
@@ -205,8 +206,9 @@ body {
 
 .projects {
   display: grid;
-  grid-template-rows: 1.4rem repeat(3, 1fr);
-  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  grid-template-rows: 1.4rem 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 1fr;
   gap: 24px;
 }
 
