@@ -201,8 +201,7 @@ body {
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 1.1rem 1fr;
   gap: 16px;
-  /* TODO CHECK OUT THIS PADDING */
-  padding: 32px 24px 52px 24px;
+  padding: 32px 24px 48px 24px;
 }
 
 .projects {
@@ -277,4 +276,5 @@ body {
 .actual-trending {
   background-color: white;
   border-radius: 8px;
+  box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.1);
 }
