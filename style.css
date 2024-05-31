@@ -272,7 +272,7 @@ body {
 
 .actual-announcements,
 .actual-trending {
-  padding: 28px 24px 28px 24px;
+  padding: 24px;
   background-color: white;
   border-radius: 8px;
   box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.1);
@@ -300,6 +300,7 @@ body {
   padding: 0 4px 0 4px;
   display: flex;
   flex-direction: column;
+  gap: 2px;
 }
 
 hr {
