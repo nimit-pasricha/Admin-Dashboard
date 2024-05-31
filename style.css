@@ -277,8 +277,11 @@ body {
   border-radius: 8px;
   box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.1);
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
   gap: 16px;
+}
+
+.actual-announcements {
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 .announcement-title {
