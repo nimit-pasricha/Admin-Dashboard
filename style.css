@@ -174,4 +174,8 @@ body {
   font-size: 1.5rem;
 }
 
+.header button {
+  background-color: var(--background-blue);
+}
+
 /* MAIN CONTENT */
