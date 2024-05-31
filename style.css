@@ -125,7 +125,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: right;
-  margin-right: 96px;
+  margin-right: 72px;
   gap: 24px;
   font-weight: var(--title-like-bold);
 }
@@ -179,7 +179,7 @@ body {
   grid-template-columns: repeat(3, minmax(90px, 1fr));
   align-items: center;
   gap: 24px;
-  margin-right: 80px;
+  margin-right: 56px;
 }
 
 .header button {
