@@ -202,7 +202,7 @@ body {
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 1.1rem 1fr;
   gap: 16px;
-  padding: 32px 24px 56px 24px;
+  padding: 32px 24px 52px 24px;
 }
 
 .projects {
@@ -215,10 +215,10 @@ body {
 }
 
 .project {
-  border-radius: 6px;
+  border-radius: 8px;
   padding: 32px 24px;
   background-color: #ffffff;
-  border-left: solid var(--profile-picture-background) 6px;
+  border-left: solid var(--profile-picture-background) 8px;
 }
 
 .projects-header {
