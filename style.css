@@ -174,8 +174,20 @@ body {
   font-size: 1.5rem;
 }
 
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 16px;
+  margin-right: 36px;
+}
+
 .header button {
   background-color: var(--background-blue);
+  font-weight: 800;
+  height: 50%;
+  border-radius: 50px;
+  color: #ffffff;
 }
 
 /* MAIN CONTENT */
