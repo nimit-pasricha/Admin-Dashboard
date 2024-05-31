@@ -15,7 +15,7 @@ body {
 }
 
 div {
-  border: solid red;
+  /* border: solid red; */
 }
 
 :root {
@@ -26,6 +26,7 @@ div {
   --subtitle-like-bold: 500;
   --search-and-pfp-padding: 42px;
   --search-bar-background: #e2e8f0;
+  --profile-picture-background: #facc15;
 }
 
 ul {
@@ -138,7 +139,7 @@ body {
 }
 
 .profile-picture {
-  background-color: #facc15;
+  background-color: var(--profile-picture-background);
   border-radius: 50%;
   padding: 6px;
 }
@@ -206,6 +207,12 @@ body {
   display: grid;
   grid-template-rows: 1.4rem repeat(3, 1fr);
   grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  gap: 24px;
+}
+
+.project {
+  background-color: #ffffff;
+  border-left: solid var(--profile-picture-background) 8px;
 }
 
 .projects-header {
