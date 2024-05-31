@@ -227,14 +227,15 @@ body {
 }
 
 .project {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 1.1rem 1fr 1.25rem;
   gap: 8px;
 }
 
 .icons {
+  justify-self: end;
   display: flex;
-  gap: 16px;
+  gap: 24px;
 }
 
 .icons svg {
