@@ -272,7 +272,7 @@ body {
 
 .actual-announcements,
 .actual-trending {
-  padding: 32px;
+  padding: 28px 24px 28px 24px;
   background-color: white;
   border-radius: 8px;
   box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.1);
@@ -281,7 +281,9 @@ body {
 }
 
 .actual-announcements {
-  grid-template-rows: 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .announcement-title {
@@ -295,7 +297,18 @@ body {
 }
 
 .one-announcement {
+  padding: 0 4px 0 4px;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+}
+
+hr {
+  height: 0;
+  border-top: solid var(--search-bar-background) 1px;
+  background-color: var(--search-bar-background);
+  width: 100%;
+}
+
+.actual-trending {
+  grid-template-rows: repeat(4, 1fr);
 }
