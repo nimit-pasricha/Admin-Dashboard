@@ -219,18 +219,15 @@ body {
   background-color: #ffffff;
   border-left: solid var(--profile-picture-background) 8px;
   box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-rows: 1.1rem 1fr 1.2rem;
+  gap: 8px;
 }
 
 .projects-header {
   font-weight: 500;
   grid-row: 1 / 2;
   font-size: 1.1rem;
-}
-
-.project {
-  display: grid;
-  grid-template-rows: 1.1rem 1fr 1.2rem;
-  gap: 8px;
 }
 
 .icons {
