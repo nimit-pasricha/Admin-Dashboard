@@ -272,13 +272,13 @@ body {
 
 .actual-announcements,
 .actual-trending {
-  padding: 24px;
+  padding: 32px;
   background-color: white;
   border-radius: 8px;
   box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 12px;
 }
 
 .announcement-title {
@@ -292,7 +292,6 @@ body {
 }
 
 .one-announcement {
-  flex-grow: 1;
   display: flex;
   flex-direction: column;
   gap: 4px;
