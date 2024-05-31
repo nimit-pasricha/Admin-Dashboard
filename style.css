@@ -209,14 +209,14 @@ body {
   grid-row: 2 / -1;
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-auto-rows: 1fr;
   gap: 24px;
 }
 
 .project {
   border-radius: 8px;
-  padding: 32px 24px;
+  padding: 32px 32px 32px 24px;
   background-color: #ffffff;
   border-left: solid var(--profile-picture-background) 8px;
 }
