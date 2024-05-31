@@ -222,6 +222,7 @@ body {
 }
 
 .projects-header {
+  font-weight: 500;
   grid-row: 1 / 2;
   font-size: 1.1rem;
 }
