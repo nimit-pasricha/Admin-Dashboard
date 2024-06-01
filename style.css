@@ -103,7 +103,7 @@ body {
 .search-bar {
   display: flex;
   align-items: center;
-  padding: 0 var(--search-and-pfp-padding);
+  padding: 16px var(--search-and-pfp-padding);
   gap: 16px;
 }
 
@@ -318,7 +318,6 @@ hr {
   border-radius: 8px;
   box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.1);
   display: grid;
-  gap: 14px;
 }
 
 .one-trending {
