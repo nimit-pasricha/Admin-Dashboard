@@ -286,12 +286,14 @@ body {
   justify-content: space-evenly;
 }
 
-.announcement-title {
+.announcement-title,
+.trending-user {
   font-size: 0.8rem;
   font-weight: 600;
 }
 
-.announcement-text {
+.announcement-text,
+.trending-description {
   font-size: 0.7rem;
   opacity: 0.6;
 }
@@ -323,11 +325,31 @@ hr {
 .one-trending-text {
   display: flex;
   flex-direction: column;
+  gap: 4px;
 }
 
 .one-trending img {
-  background-color: #facc15;
   border-radius: 50%;
   width: 2.4rem;
   padding: 4px;
+}
+
+img[src="images/sushi.png"] {
+  background-color: #f4bd65;
+}
+
+img[src="images/cat-pfp.png"] {
+  background-color: #facc15;
+}
+
+img[src="images/mushroom.png"] {
+  background-color: lightskyblue;
+}
+
+img[src="images/cat-grooming-itself.png"] {
+  background-color: greenyellow;
+}
+
+img[src="images/two-kittens.png"] {
+  background-color: lightpink;
 }
