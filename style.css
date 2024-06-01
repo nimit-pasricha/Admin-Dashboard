@@ -325,7 +325,7 @@ hr {
 .one-trending-text {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 2px;
 }
 
 .one-trending img {
