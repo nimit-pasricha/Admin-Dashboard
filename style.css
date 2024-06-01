@@ -289,13 +289,12 @@ body {
 .announcement-title,
 .trending-user {
   font-size: 0.8rem;
-  font-weight: 600;
 }
 
 .announcement-text,
 .trending-description {
   font-size: 0.7rem;
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .one-announcement {
