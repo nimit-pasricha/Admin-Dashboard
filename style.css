@@ -14,10 +14,6 @@ body {
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-div {
-  /* border: solid red; */
-}
-
 :root {
   --background-blue: #1992d4;
   --header-icon-width: 1.4rem;
@@ -242,13 +238,12 @@ body {
 }
 
 .project-title {
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .project-description {
   font-size: 0.9rem;
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .announcements-and-trending {
