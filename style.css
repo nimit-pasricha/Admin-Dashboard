@@ -200,9 +200,9 @@ body {
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 1.1rem 1fr;
-  gap: 16px;
+  gap: 12px;
   column-gap: 32px;
-  padding: 28px 24px 42px 24px;
+  padding: 28px 24px 36px 24px;
 }
 
 .projects {
@@ -262,7 +262,7 @@ body {
 .trending {
   display: grid;
   grid-template-rows: 1.1rem 1fr;
-  gap: 16px;
+  gap: 12px;
 }
 
 .announcements-header,
@@ -318,6 +318,7 @@ hr {
   border-radius: 8px;
   box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.1);
   display: grid;
+  gap: 8px;
 }
 
 .one-trending {
